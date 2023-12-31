@@ -33,7 +33,7 @@ function runGame() {
     alert("You lose, the computer chose s!");
     losses += 1;
   } else if (choice === "s" && cpuChoice === "p") {
-    alert("You win, the computer chose r!");
+    alert("You win, the computer chose p!");
     wins += 1;
   } else if (choice === "s" && cpuChoice === "r") {
     alert("You lose, the computer chose r!");
